@@ -1,0 +1,106 @@
+<COMPANY>
+	<EMPLOYEE_LIST>
+		<EMPLOYEE SSN="123456789">
+			<EmployeeName Minit="B" Lname="Smith">John</EmployeeName>
+			<Gender>M</Gender>
+			<Salary>30000</Salary>
+			<Bdate>1965-01-09</Bdate>
+			<Dno>5</Dno>
+			<Supper_ssn>333445555</Supper_ssn>
+			<Address num="731" street="Fondren" state="TX">Houston</Address>
+			<WorksOn>
+				<Project Pno="1" Hours="32.5"/>
+				<Project Pno="2" Hours="7.5"/>
+				</Project>	
+			</WorksOn>
+			<Dependent>
+				<Info Name="Michael" Gender ="M" Bdate="1988-01-04" Relationship="Son"/>
+				<Info Name="Alice" Gender ="F" Bdate="1988-12-30" Relationship="Daughter"/>
+				<Info Name="Elizabeth" Gender ="F" Bdate="1967-05-05" Relationship="Spouse">
+				</Info>
+			</Dependent>
+		</EMPLOYEE>
+
+		<EMPLOYEE SSN="333445555">
+			<EmployeeName Minit="T" Lname="Wong">Franklin</EmployeeName>
+			<Gender>M</Gender>
+			<Salary>40000</Salary>
+			<Bdate>1955-12-18</Bdate>
+			<Dno>5</Dno>
+			<Supper_ssn>888665555</Supper_ssn>
+			<Address num="683" street="Voss" state="TX">Houston</Address>
+			<WorksOn>
+				<Project Pno="2" Hours="10.0"/>
+				<Project Pno="3" Hours="10.0"/>
+				<Project Pno="10" Hours="10.0"/>	
+				<Project Pno="20" Hours="10.0">
+				</Project>	
+			</WorksOn>
+			<Dependent>
+				<Info Name="Alice" Gender ="F" Bdate="1986-04-05" Relationship="Daughter"/>
+				<Info Name="Theodore" Gender ="M" Bdate="1983-10-25" Relationship="Son"/>
+				<Info Name="Joy" Gender ="F" Bdate="1958-05-03" Relationship="Spouse">
+				</Info>
+			</Dependent>
+		</EMPLOYEE>
+	</EMPLOYEE_LIST>
+
+	<DEPARTMENT_LIST>
+		<DEPARTMENT  name="Research">
+			<Dnumber>5</Dnumber>
+			<Mgr_ssn>333445555</Mgr_ssn>
+			<Mgr_start_date>1988-05-22</Mgr_start_date>
+			<Location_list>
+				<Location name="Bellaire"/>
+				<Location name="Sugarland"/>
+				<Location name="Houston">
+				</Location>
+			</Location_list>
+		</DEPARTMENT>
+
+		<DEPARTMENT  name="Administration">
+			<Dnumber>4</Dnumber>
+			<Mgr_ssn>987654321</Mgr_ssn>
+			<Mgr_start_date>1995-01-01</Mgr_start_date>
+			<Location_list>
+				<Location name="Stafford"/>
+				</Location>
+			</Location_list>
+		</DEPARTMENT>
+
+		<DEPARTMENT  name="Headquarters">
+			<Dnumber>1</Dnumber>
+			<Mgr_ssn>888665555</Mgr_ssn>
+			<Mgr_start_date>1981-06-19</Mgr_start_date>
+			<Location_list>
+				<Location name="Houston"/>
+				</Location>
+			</Location_list>
+		</DEPARTMENT>
+	</DEPARTMENT_LIST>
+	
+	<PROJECT_LIST>
+		<PROJECT Name ="ProductX">
+			<Pnumber>1</Pnumber>
+			<Plocation>Bellaire</Plocation>
+			<Dnumber>5</Dnumber>
+			<Worker_list>
+				<Worker SSN="123456789" Hours="32.5"/>
+				<Worker SSN="453453453" Hours="20.0">
+				</Worker>
+			</Worker_list>
+		</PROJECT>
+
+		<PROJECT Name ="ProductY">
+			<Pnumber>2</Pnumber>
+			<Plocation>Sugarland</Plocation>
+			<Dnumber>5</Dnumber>
+			<Worker_list>
+				<Worker SSN="123456789" Hours="7.5"/>
+				<Worker SSN="453453453" Hours="20.0"/>
+				<Worker SSN="333445555" Hours="10.0">
+				</Worker>
+			</Worker_list>
+		</PROJECT>
+	</PROJECT_LIST>
+</COMPANY>

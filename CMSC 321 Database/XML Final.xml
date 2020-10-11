@@ -1,0 +1,202 @@
+<GAME>
+	<MAPLIST>
+		<MAP>
+			<id_map>1</id_map>
+			<name_map>Summoner rift</name_map>
+			<popularity_map>high</popularity_map>
+		<MAP>
+		</MAP>
+			<id_map>2</id_map>
+			<name_map>Howling Abyss</name_map>
+			<popularity_map>medium</popularity_map>
+		<MAP>
+		</MAP>
+			<id_map>3</id_map>
+			<name_map>Twisted Treeline</name_map>
+			<popularity_map>low</popularity_map>
+		</MAP>
+	</MAPLIST>
+
+	<MODESLIST>
+		<MODES>
+			<id_mod>1</id_mod>
+			<name_mode>Normal</name_mode>
+			<popularity_mode>high</popularity_mode>
+			<availible>true</availible>
+			<map_id>1</map_id>
+		</MODES>
+		<MODES>
+			<id_mod>2</id_mod>
+			<name_mode>Rank</name_mode>
+			<popularity_mode>high</popularity_mode>
+			<availible>true</availible>
+			<map_id>1</map_id>
+		</MODES>
+		<MODES>
+			<id_mod>3</id_mod>
+			<name_mode>ARAM</name_mode>
+			<popularity_mode>medium</popularity_mode>
+			<availible>true</availible>
+			<map_id>2</map_id>
+		</MODES>
+		<MODES>
+			<id_mod>4</id_mod>
+			<name_mode>URF</name_mode>
+			<popularity_mode>high</popularity_mode>
+			<availible>false</availible>
+			<map_id>1</map_id>
+		</MODES>
+		<MODES>
+			<id_mod>5</id_mod>
+			<name_mode>One For All</name_mode>
+			<popularity_mode>medium</popularity_mode>
+			<availible>false</availible>
+			<map_id>1</map_id>
+		</MODES>
+		<MODES>
+			<id_mod>6</id_mod>
+			<name_mode>3v3</name_mode>
+			<popularity_mode>low</popularity_mode>
+			<availible>false</availible>
+			<map_id>3</map_id>
+		</MODES>
+	</MODESLIST>
+
+	<CHAMPIONLIST>
+		<CHAMPION>
+			<id_champion>1</id_champion>
+			<name_champion>Ahri</name_champion>
+			<basic_stats_id id_basic="1">
+				<health>526</health>
+				<armor>20</armor>
+				<magic_resist>30</magic_resist>
+				<move_speed>330</move_speed>
+				<mana>418</mana>
+			</basic_stats_id>
+			<lore_id id_lore="1">
+				<region>Ionia</region>
+				<WEAPON>Orb of Deception</WEAPON>
+				<gender>F</gender>
+				<race>Humanoid Fox</race>
+			</lore_id>
+			<roles>MID</roles>
+			<ablilities_id id_ablilities="1">
+				<Passive>Vastayan Grace</Passive>
+				<Q>Orb of Deception</Q>
+				<W>Fox-Fire</W>
+				<E>Charm</E>
+				<R>Spirit Rush</R>	
+			</ablilities_id>
+			<price>4800</price>
+			<numer_of_skin>8</numer_of_skin>
+		</CHAMPION>
+		<CHAMPION>
+			<id_champion>2</id_champion>
+			<name_champion>Rengar</name_champion>
+			<basic_stats_id id_basic="2">
+				<health>585</health>
+				<armor>34</armor>
+				<magic_resist>32</magic_resist>
+				<move_speed>345</move_speed>
+				<mana>NULL</mana>
+			</basic_stats_id>
+			<lore_id id_lore="2">
+				<region>Ixtal</region>
+				<WEAPON>Kirai Sabern</WEAPON>
+				<gender>M</gender>
+				<race>Kiilash</race>
+			</lore_id>
+			<roles>JUNGLE</roles>
+			<ablilities_id id_ablilities="2">
+				<Passive>Unseen Predator</Passive>
+				<Q>Savagery</Q>
+				<W>Battle Roar</W>
+				<E>Bola Strike</E>
+				<R>Thrill of the Hunt</R>	
+			</ablilities_id>
+			<price>4800</price>
+			<numer_of_skin>5</numer_of_skin>
+		</CHAMPION>
+		<CHAMPION>
+			<id_champion>3</id_champion>
+			<name_champion>Nami</name_champion>
+			<basic_stats_id id_basic="3">
+				<health>489</health>
+				<armor>29</armor>
+				<magic_resist>30</magic_resist>
+				<move_speed>335</move_speed>
+				<mana>377</mana>
+			</basic_stats_id>
+			<lore_id id_lore="3">
+				<region>Mount Targon</region>
+				<WEAPON>Tidecaller Staff</WEAPON>
+				<gender>F</gender>
+				<race>Trident</race>
+			</lore_id>
+			<roles>SUPPORT</roles>
+			<ablilities_id id_ablilities="3">
+				<Passive>Surging Tides</Passive>
+				<Q>Aqua Prison</Q>
+				<W>Ebb and Flow</W>
+				<E>Tidecaller Blessing</E>
+				<R>Tidal Wave</R>	
+			</ablilities_id>
+			<price>4800</price>
+			<numer_of_skin>10</numer_of_skin>
+		</CHAMPION>
+		<CHAMPION>
+			<id_champion>4</id_champion>
+			<name_champion>Jinx</name_champion>
+			<basic_stats_id id_basic="4">
+				<health>581</health>
+				<armor>28</armor>
+				<magic_resist>30</magic_resist>
+				<move_speed>325</move_speed>
+				<mana>245</mana>
+			</basic_stats_id>
+			<lore_id id_lore="4">
+				<region>Zaun</region>
+				<WEAPON>Fishbones</WEAPON>
+				<gender>F</gender>
+				<race>Human</race>
+			</lore_id>
+			<roles>ADC</roles>
+			<ablilities_id id_ablilities="4">
+				<Passive>Get Excited!</Passive>
+				<Q>Switcheroo!</Q>
+				<W>Zap!</W>
+				<E>Flame Chompers!</E>
+				<R>Super Mega Death Rocket!</R>	
+			</ablilities_id>
+			<price>4800</price>
+			<numer_of_skin>4</numer_of_skin>
+		</CHAMPION>
+		<CHAMPION>
+			<id_champion>5</id_champion>
+			<name_champion>Garen</name_champion>
+			<basic_stats_id id_basic="5">
+				<health>620</health>
+				<armor>36</armor>
+				<magic_resist>32</magic_resist>
+				<move_speed>340</move_speed>
+				<mana>NULL</mana>
+			</basic_stats_id>
+			<lore_id id_lore="5">
+				<region>Demacia</region>
+				<WEAPON>Sunsteel Broadsword</WEAPON>
+				<gender>M</gender>
+				<race>Human</race>
+			</lore_id>
+			<roles>TOP</roles>
+			<ablilities_id id_ablilities="5">
+				<Passive>Perseverance</Passive>
+				<Q>Decisive Strike</Q>
+				<W>Courage</W>
+				<E>Judgment</E>
+				<R>Demacian Justice</R>	
+			</ablilities_id>
+			<price>450</price>
+			<numer_of_skin>12</numer_of_skin>
+		</CHAMPION>
+	</CHAMPIONLIST>
+<GAME>

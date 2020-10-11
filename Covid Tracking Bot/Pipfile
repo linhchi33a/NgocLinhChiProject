@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+blue-chip = "*"
+atomicwrites = {version = "*",sys_platform = "== 'win32'"}
+coveralls = "*"
+pytest-mock = "*"
+responses = "*"
+
+[packages]
+fastapi = "*"
+requests = "*"
+uvicorn = "*"
+gunicorn = "*"
+wit = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.8"

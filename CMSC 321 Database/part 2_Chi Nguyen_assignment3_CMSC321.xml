@@ -1,0 +1,74 @@
+<xs:schema>
+    <xs:element name="Book">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Book_id" type="xs:int">
+                <xs:element name="Title" type="xs:string"/>  
+                <xs:element name="Publisher_name" type="xs:string"/>  
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+    <xs:element name="Book_authors">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Book_id" type="xs:int">
+                <xs:element name="Author_name" type="xs:string"/>  
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+    <xs:element name="Publisher">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Name" type="xs:string">
+                <xs:element name="Address" type="xs:string"/>  
+                <xs:element name="Phone" type="xs:int"/>  
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+   <xs:element name="Book_copies">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Book_id" type="xs:int">
+                <xs:element name="Branch_id" type="xs:int"/>  
+                <xs:element name="No_of_copies" type="xs:int"/>  
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+    <xs:element name="Book_loans">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Book_id" type="xs:int">
+                <xs:element name="Branch_id" type="xs:int"/>  
+                <xs:element name="Card_no" type="xs:int"/>  
+                <xs:element name="Date_out" type="xs:date"/>  
+                <xs:element name="Due_date" type="xs:date"/>  
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+    <xs:element name="library_branch">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Branch_id" type="xs:int">
+                <xs:element name="Branch_name" type="xs:string"/>  
+                <xs:element name="Address" type="xs:string"/>  
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+    <xs:element name="Borrower">
+        <xs:complexType>
+             <xs:sequence>
+                <xs:element name="Card_no" type="xs:int">
+                <xs:element name="Name" type="xs:string"/>  
+                <xs:element name="Address" type="xs:string"/> 
+                <xs:element name="Phone" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType> 
+    </xs:element>
+
+</xs:schema>

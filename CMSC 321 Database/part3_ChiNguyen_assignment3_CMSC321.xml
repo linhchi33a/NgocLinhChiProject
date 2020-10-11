@@ -1,0 +1,34 @@
+<record>
+	<Thing no="1">
+		<dc:tile>Chi</dc:tile>
+		<dc:date>4-10-2000</dc:date>
+		<dc:creator>Chi's Mom</dc:creator>
+		<dc:language>Vietnamese</dc:language>
+		<dc:resourcetype>Human</dc:resourcetype>
+		<dc:description>enthusiastic and like video games</dc:description>
+	</Thing>
+	<Thing no="2">
+		<dc:tile>Cream</dc:tile>
+		<dc:date>5-9-2019</dc:date>
+		<dc:creator>All thing Pets</dc:creator>
+		<dc:language>Rat language</dc:language>
+		<dc:resourcetype>pet</dc:resourcetype>
+		<dc:description>layback and cuddly</dc:description>
+	</Thing>
+	<Thing no="3">
+		<dc:tile>Twitch</dc:tile>
+		<dc:date>5-8-2019</dc:date>
+		<dc:creator>Pet Smart</dc:creator>
+		<dc:language>Rat language</dc:language>
+		<dc:resourcetype>pet</dc:resourcetype>
+		<dc:description>love foods and adventurous</dc:description>
+	</Thing>
+	<Thing no="4">
+		<dc:tile>Gnar</dc:tile>
+		<dc:date>5-10-2019</dc:date>
+		<dc:creator>Local Rat Breeder</dc:creator>
+		<dc:language>Rat language</dc:language>
+		<dc:resourcetype>pet</dc:resourcetype>
+		<dc:description>Jumpy and vocally(like to scream for no reason)</dc:description>
+	</Thing>
+</record>
